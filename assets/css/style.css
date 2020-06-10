@@ -1,6 +1,21 @@
 * {margin:0; padding:0}
 
 
+header {
+    background:lightgrey;
+    padding-bottom: 2%;
+    height: 2vh;
+    width: 100%;
+
+}
+
+header nav ul li {
+    display: inline;
+    padding: 2% 2%;
+    color: black;
+}
+
+
 body {
     background-color: purple; 
     color: white; 
@@ -8,10 +23,13 @@ body {
 }
 
 
+h1 {
+    padding-top: 2%;
+}
+
 h3 {
     padding-top: 3%;
     padding-left: 2.5%;
-
 }
 
 article img {
@@ -31,3 +49,5 @@ article h4 {
     border: 2px solid white; 
     margin: 5%;
 }
+
+
